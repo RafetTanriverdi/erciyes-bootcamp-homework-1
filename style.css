@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+aside {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    background-color: #BD5D38;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+aside img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 10px solid #CA7D60;
+}
+aside ul a {
+    margin: 0;
+    text-decoration: none;
+    color: #E0A780;
+    text-align: center;
+    font-weight: 800;
+}
+aside ul{
+    text-align: center;
+}
+aside ul li{
+    text-transform: uppercase;
+    list-style: none;
+    padding-top: 25px;
+}
+aside ul a:hover{
+    color: #DBD4F1;
+}
+.sections{
+    position: relative;
+    left: 18%;
+    z-index: -1;
+}
+.section-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 70%;
+    padding-left: 3%;
+
+}
+.section-1 h1{
+    color: #343A40;
+    font-size:4rem;
+    font-weight: 600;
+    line-height:1;
+    margin-bottom: 0.5rem;
+}
+.section-1 h1 span{
+    color: #BD5D38;
+}
+.section-1 .sub-title{
+    color: #6E7983;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.15em;
+    margin-bottom: 3rem;
+}
+.section-1 .sub-title a{
+    color: #BD5D38;
+}
+.section-1 p{
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: #6E7983;
+    margin-bottom: 3rem;
+}
+.section-1 .social-media-icon i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+}
+i:hover{
+    background-color: #BD5D38;
+}
+hr{
+    
+    background-color: #DFE1E3;
+    border: none;
+    height: 0.5px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.info-box{
+    display: flex;
+    justify-items: flex-start;
+   
+}
+.info{
+    width: 70%;
+}
+.section-2{
+    position: relative;
+    display:grid;
+    justify-content: space-around;
+    height: 100vh;
+    width: 70%;
+    padding-left: 3%;
+
+}
+h2{
+    color: #343A40;
+    font-size:3.2rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h3{
+    color: #343A40;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+h4{
+    color: #6E7983;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+.date{
+    justify-items: flex-end ; 
+    text-align: end;
+    color: #D1854B;
+    font-size: 1rem;
+    font-weight: 400;
+    right: 0;
+    width: 30%;
+}
+p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #6E7983;
+    margin-bottom: 1rem;
+}
+.info-box p{font-size: 16px;}
+.section-3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    height: 100vh;
+    width: 70%;
+    padding-left: 3%;
+
+}
+
+.section-3 .info-box{
+    margin-top: 3rem;
+}
+.section-4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    height: 100vh;
+    width: 70%;
+    padding-left: 3%;
+
+}
+.section-4 .programing-skills i{
+    font-size: 3.2rem;
+    margin-right: 10px;
+    color: #6E7983;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.section-4 ul li {
+    color: #6E7983;
+    margin-bottom: 9px;
+}
+.section-5{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    height: 100vh;
+    width: 70%;
+    padding-left: 3%;
+
+}
+.section-5 .info{
+    width: 100%;
+}
+.section-6{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    height: 100vh;
+    width: 70%;
+    padding-left: 3%;
+
+}
+.section-6 ul li {
+    color: #6E7983;
+    margin-bottom: 9px;
+    font-size: 17px;
+}
+.section-6 ul li i{
+    color: #FFC20D;
+}
